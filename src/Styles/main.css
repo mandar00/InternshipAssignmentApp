@@ -1,1 +1,221 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+}
+
+.homeMainContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homeMainContainer .homeContentContainer {
+  width: 35%;
+  height: 55%;
+  background-color: #01131B;
+  margin-top: 3rem;
+  padding: 1rem 1.5rem;
+}
+
+.homeMainContainer .homeContentContainer ul {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.homeMainContainer .homeContentContainer ul a {
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1.5px dotted white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  text-decoration: none;
+}
+
+.homeMainContainer .homeContentContainer ul a h1 {
+  font-weight: 100;
+  color: white;
+  margin: 0.1rem 0;
+}
+
+@media (max-width: 900px) {
+  .homeMainContainer .homeContentContainer ul a h1 {
+    font-size: .9rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .homeMainContainer .homeContentContainer ul a h1 {
+    font-size: .6rem;
+  }
+}
+
+.homeMainContainer .homeContentContainer ul a h4 {
+  font-weight: 100;
+}
+
+.mainSubSectionContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainSubSectionContainer .subSectionContentContainer {
+  width: 35%;
+  height: 55%;
+  background-color: #01131B;
+  margin-top: 3rem;
+  padding: 2rem 1.5rem;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .openParams {
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1.5px dotted white;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .openParams p {
+  width: 100%;
+  height: 3rem;
+  color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .subSectionTitle {
+  width: 100%;
+  height: 4rem;
+  background-color: #1686B0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 1rem;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .subSectionTitle h1 {
+  font-weight: 100;
+  color: white;
+  margin-bottom: .3rem;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .subSectionContent {
+  width: 100%;
+  margin-top: 1rem;
+  white-space: normal;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .subSectionContent p {
+  color: white;
+  font-size: 1rem;
+  margin: .5rem 0;
+  font-weight: 100;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .subSectionContent p h5 {
+  display: inline;
+  font-weight: 100;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .subSectionContent a {
+  color: steelblue;
+  text-decoration: none;
+  font-weight: 100;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .CCIPeriodparams {
+  width: 100%;
+  height: 4rem;
+  margin-top: -1rem;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .CCIPeriodparams p {
+  font-size: 1rem;
+  color: white;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .CCIPeriodParamIndicator {
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .CCIPeriodParamIndicator p {
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+@media (max-width: 900px) {
+  .mainSubSectionContainer .subSectionContentContainer .CCIPeriodParamIndicator p {
+    font-size: .8rem;
+  }
+}
+
+.mainSubSectionContainer .subSectionContentContainer .CCIPeriodParamIndicator input {
+  margin-right: 1rem;
+  width: 50%;
+}
+
+@media (max-width: 900px) {
+  .mainSubSectionContainer .subSectionContentContainer .CCIPeriodParamIndicator input {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
