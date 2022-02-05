@@ -1,0 +1,172 @@
+@import "breakpoints";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+}
+
+.homeMainContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    .homeContentContainer{
+        width: 35%;
+        height: 55%;
+        background-color: #01131B;
+        margin-top: 3rem;
+        padding: 1rem 1.5rem;
+        ul{ 
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            a{
+                width: 100%;
+                height: 3rem;
+                border-bottom: 1.5px dotted white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: white;
+                text-decoration: none;
+                h1{
+                    font-weight: 100;
+                    color: white;
+                    margin: 0.1rem 0;
+                    @include md{
+                        font-size: .9rem;
+                    }
+                    @include sm{
+                        font-size: .6rem;
+                    }
+                }
+                h4{
+                    font-weight: 100;
+                }
+            }
+
+        }
+      
+    }
+}
+
+.mainSubSectionContainer{
+    width: 100vw;
+    height: 100vh;
+    background-color:white ;
+    display: flex;
+    justify-content: center;
+    .subSectionContentContainer{
+        width: 35%;
+        height: 55%;
+        background-color: #01131B;
+        margin-top: 3rem;
+        padding: 2rem 1.5rem;
+        .openParams{
+            width: 100%;
+            height: 3rem;
+            // background-color: tan;
+            border-bottom: 1.5px dotted white;
+       
+            p{
+                width: 100%;
+                height: 3rem;
+                color: white;
+                display: inline-flex;
+                align-items: center;
+                font-size: 1rem;
+                padding-left: 1rem;
+
+            }
+
+        }
+        .subSectionTitle{
+            width: 100%;
+            height: 4rem;
+            background-color: #1686B0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 1rem;
+            h1{
+                font-weight: 100;
+                color: white;
+                margin-bottom: .3rem;
+            }
+            h4{
+
+            }
+        }
+        .subSectionContent{
+            width: 100%;
+            margin-top: 1rem;
+            white-space: normal;
+
+            p{
+                color: white;
+                font-size: 1rem;
+                margin: .5rem 0;
+                font-weight: 100;
+                h5{
+
+                    display: inline;
+                    font-weight: 100;
+
+                }
+
+            }
+            a{
+                color: steelblue;
+                text-decoration:none;
+                font-weight: 100;
+
+               
+            }
+            
+          
+           
+        }
+        .CCIPeriodparams{
+            width: 100%;
+            height: 4rem;
+            // background-color: yellow;
+            margin-top: -1rem;
+            p{
+                font-size: 1rem;
+                color: white;
+            }
+        }
+        .CCIPeriodParamIndicator{
+            width: 100%;
+            height: 4rem;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            p{
+                font-size: 1rem;
+                margin-left: 1rem;
+                @include md{
+                    font-size: .8rem;
+                }
+                
+            }
+            input{
+                margin-right: 1rem;
+                width: 50%;
+                @include md{
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
+
