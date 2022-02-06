@@ -26,8 +26,8 @@ const IntradayBuying = () => {
                     {val.criteria.map((value,index)=>{
                         return(
                             <div key={index}>
-                            <p>{value.text}</p>
-                            {index===val.criteria.length-1?" ":<p style={{fontSize:".7rem"}}>and</p>}
+                            <p>{value.text}</p><br/>
+                            {index===val.criteria.length-1?" ":<p  style={{fontSize:".7rem"}}>and</p>}
                             
                             </div>
                         )

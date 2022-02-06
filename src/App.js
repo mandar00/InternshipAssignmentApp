@@ -1,17 +1,17 @@
 import React,{useEffect,useState} from 'react'
 import {Route , Routes} from "react-router-dom"
 import Home from './Components/Home';
-import CCIParams from './Components/subComponents/CCIParams';
-import CCIPeriodParams from './Components/subComponents/CCIPeriodParams';
-import CSIReversal from './Components/subComponents/CSIReversal';
+import CCIParams from './Components/subComponents/CCi/CCIParams';
+import CCIPeriodParams from './Components/subComponents/CCi/CCIPeriodParams';
+import CSIReversal from './Components/subComponents/CCi/CSIReversal';
 import IntradayBuying from './Components/subComponents/IntradayBuying';
-import OpenHigh from './Components/subComponents/OpenHigh';
-import OpenHighParams from './Components/subComponents/OpenHighParams';
-import RSIOverbought from './Components/subComponents/RSIOverbought';
-import RSIParams from './Components/subComponents/RSIParams';
-import RSIParamsThree from './Components/subComponents/RSIParamsThree';
-import RSIParamsTwo from './Components/subComponents/RSIParamsTwo';
-import RSIPeriodParams from './Components/subComponents/RSIPeriodParams';
+import OpenHigh from './Components/subComponents/OpenHigh/OpenHigh';
+import OpenHighParams from './Components/subComponents/OpenHigh/OpenHighParams';
+import RSIOverbought from './Components/subComponents/RSI/RSIOverbought';
+import RSIParams from './Components/subComponents/RSI/RSIParams';
+import RSIParamsThree from './Components/subComponents/RSI/RSIParamsThree';
+import RSIParamsTwo from './Components/subComponents/RSI/RSIParamsTwo';
+import RSIPeriodParams from './Components/subComponents/RSI/RSIPeriodParams';
 import TopGainer from './Components/subComponents/TopGainer';
 
 

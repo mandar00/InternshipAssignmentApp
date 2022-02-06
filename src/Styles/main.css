@@ -153,16 +153,41 @@ body {
   white-space: normal;
 }
 
+.mainSubSectionContainer .subSectionContentContainer .subSectionContent .andDivider {
+  margin: 1rem 0;
+}
+
 .mainSubSectionContainer .subSectionContentContainer .subSectionContent p {
   color: white;
   font-size: 1rem;
-  margin: .5rem 0;
   font-weight: 100;
+  display: inline;
+  margin: 1rem 0;
 }
 
 .mainSubSectionContainer .subSectionContentContainer .subSectionContent p h5 {
-  display: inline;
+  color: white;
+  font-size: 1rem;
   font-weight: 100;
+  display: inline;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .subSectionContent h4 {
+  font-weight: 100;
+  margin: .5rem 0;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .subSectionContent .cciResults {
+  width: 100%;
+  font-weight: 100;
+  margin: .5rem 0;
+}
+
+.mainSubSectionContainer .subSectionContentContainer .subSectionContent .cciResults h5 {
+  color: white;
+  font-size: 1rem;
+  font-weight: 100;
+  display: inline;
 }
 
 .mainSubSectionContainer .subSectionContentContainer .subSectionContent a {
